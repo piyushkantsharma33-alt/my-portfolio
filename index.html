@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        nav{
+            background-color: black;
+            padding: 20px 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav h2{
+            color: aliceblue;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+        }
+        nav ul li{
+            margin-left: 25px;
+        }
+        nav ul li a{
+            color: aliceblue;
+            text-decoration: none;
+        }
+        nav ul li a:hover{
+            color: orange;
+        }
+        .hero{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            min-height:90vh ;
+        }
+        .content{
+            width: 500px;
+        }
+        .content h1{
+            font-size: 55px;
+        }
+        .content span{
+            color: blue;
+        }
+        .content h3{
+            margin-top: 15px;
+            color: #555;
+        }
+        .content p{
+            margin-top: 20px;
+            line-height: 28px;
+
+        }
+        button{
+            margin-top: 50px;
+            padding: 12px 30px;
+            border: none;
+            background-color: orange;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 2s;
+
+        }
+        button:hover{
+            transform: scale(1.1);
+        }
+        .image img{
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        }
+        .about{
+          
+        padding: 80px;
+        text-align: center;
+        }
+        .about h2{
+            margin-bottom: 20px;
+            justify-content: center;
+            text-align: center;
+            margin-left: 80px;
+            display: flex;
+        }
+        .about p{
+            margin-top: 10px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        .Skill{
+            padding: 80px;
+            text-align: center;
+        }
+        .skill-box{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .card{
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2s);
+        }
+        .card:hover{
+            transform: translateY(-10px);
+        }
+        .Project{
+            padding: 80px;
+            text-align: center;
+        }
+        .Project-container{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .Project-card{
+            background-color: aliceblue;
+            width: 250px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px;
+            transition: 1s;
+        }
+        .Project-card:hover{
+            transform: scale(1.05);
+        }
+        .Contact{
+            text-align: center;
+            padding: 80px;
+            background-color: #222;
+            color: white;
+        }
+        .Contact p{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>skillmanthan</h2>
+        <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>    
+     <li><a href="">Skill</a></li>
+     <li><a href="">Project</a></li>
+<li><a href="">Contact</a></li>
+        </ul>
+</nav>
+<section class="hero">
+    <div class="content">
+        <h1>Hello I'm <span>PIYUSH KANT SHARMA</span></h1>
+        <h3>WEB DEVELOPER</h3>
+       <p>Passianate about creating beautiful websites and learning new technology. </p>
+       <button>HIRE ME</button>
+    </div>
+    <div class="image">
+        <img src="c:\Users\user\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\TempState\medias\Screenshot_2026-06-20-15-35-11-21_1c337646f29875672b5a61192b9010f9.jpg" alt="">
+
+    </div>
+</section>
+<section class="about">
+    <h2>About me</h2>
+  <p> I am Passianate web developer with skill in html,css,javascript and Bootstrap</p>
+
+</section>
+<section class="Skill">
+    <h2>My Skills</h2>
+    <div class="skill-box">
+        <div class="card">Html</div>
+     <div class="card">python</div>
+    <div class="card">java</div>
+    <div class="card">Bootstrap</div>
+    </div>
+
+</section>
+<section class="Project">
+<h2>Project</h2>
+<div class="Project-container">
+    <div class="Project-card">
+  <h3>Netflix Clone</h3>
+       <p>HTML & CSS</p>     
+    </div>
+    <div class="Project-card">
+        <h3>Weather App</h3>
+      <p>Responsive UI</p>
+
+    </div>
+    <div class="Project-card">
+        <h3>Music Player</h3>
+        <p>Animation Based Project</p>
+
+    </div>
+</div>
+</section>
+<section class="Contact">
+<h2>Contact me</h2>
+<button>Contact Now</button>
+<p>89571177711<br>piyushkantsharma077@gmail.com</p>
+</section>
+
+</body>
+</html
